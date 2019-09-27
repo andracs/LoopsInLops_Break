@@ -11,7 +11,7 @@ public class Demo {
     public static int breakExample(int optil) {
 
         int resultat = 0;
-        for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < optil; i++) {
             if (i == optil - 5) {
                 break;
             }
@@ -20,10 +20,10 @@ public class Demo {
         return resultat;
     }
 
-    public static void loopInLoop(int vaerdi) {
+    public static void loopInLoop(int optil) {
 
-        for (int i = 1; i <= vaerdi; i++) {
-            for (int j = 1; j <= vaerdi; j++) {
+        for (int i = 1; i <= optil; i++) {
+            for (int j = 1; j <= optil; j++) {
                 System.out.print(i * j + " ");
             }
             System.out.println();
